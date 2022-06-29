@@ -1,0 +1,7 @@
+Novamente os códigos foram criados no console:
+
+document.head
+
+document.getElementById('producao');
+
+document.querySelector('#producao');
