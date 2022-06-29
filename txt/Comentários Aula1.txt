@@ -1,0 +1,9 @@
+//Códigos escritos diretamente no console:
+
+document.getElementById('producao');
+
+document.getElementById('producao').value = 'Test JavaScript';
+
+document.getElementsByClassName('estatistica');
+
+document.querySelector('#producao');
