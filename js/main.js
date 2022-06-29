@@ -4,33 +4,48 @@ const braco = document.querySelector("#braco");
 
 const controle = document.querySelectorAll(".controle-ajuste");
 
+controle.forEach((elemento) => {
 
-somar.addEventListener("click", () => {
+    elemento.addEventListener("click", (evento) => {
 
-    manipulaDados("somar");
+        manipulaDados(evento.target.textContent);
+
+    });
 
 });
 
-subtrair.addEventListener("click", () => {
+
+    /*
+    
+   - Substituido
+
+    somar.addEventListener("click", () => {
+
+        manipulaDados("somar");
+
+    });
+
+    subtrair.addEventListener("click", () => {
 
         manipulaDados("subtrair");
 
-});
+    });
+    */
 
 
-function manipulaDados (operacao) {
+    function manipulaDados(operacao) {
 
-    if (operacao === "subtrair") {
+        if (operacao === "-") {
 
-        braco.value = parseInt(braco.value) - 1;
+            braco.value = parseInt(braco.value) - 1;
 
-    } else {
+        } else {
 
-        braco.value = parseInt(braco.value) + 1;
-        
+            braco.value = parseInt(braco.value) + 1;
+
+        }
+
     }
-
-}
 
 
 /*
