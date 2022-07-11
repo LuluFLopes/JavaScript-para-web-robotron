@@ -1,1 +1,3 @@
-# robotron-2000
+# Curso JavaScript Alura
+
+> Status do Cruso:  Em Andamento.
